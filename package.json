@@ -6,5 +6,28 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
+  },
+  "jest": {
+    "preset": "jest-preset-miaoxing"
+  },
+  "dependencies": {
+    "@mxjs/a-box": "^1.0.0",
+    "@ant-design/icons": "^4.6.2"
+  },
+  "devDependencies": {
+    "@miaoxing/dev": "^9.1.0",
+    "@testing-library/react": "^11.2.6",
+    "react": ">=16.13.1",
+    "react-dom": ">=16.13.1"
+  },
+  "peerDependencies": {
+    "react": ">=16.13.1",
+    "react-dom": ">=16.13.1"
+  },
+  "ciDependencies": {
+    "babel-preset-miaoxing": "miaoxing/babel-preset-miaoxing",
+    "jest-preset-miaoxing": "miaoxing/jest-preset-miaoxing",
+    "@miaoxing/dev": "miaoxing/dev",
+    "@mxjs/a-box": "miaoxing/mxjs-a-box"
   }
 }
