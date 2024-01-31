@@ -1,3 +1,18 @@
+# [1.1.0](https://github.com/miaoxing/mxjs-a-loading/compare/v1.0.0...v1.1.0) (2024-01-31)
+
+
+### Features
+
+* **a-loading:** 增加 `Loading`, `PageLoading` 组件 ([3832a53](https://github.com/miaoxing/mxjs-a-loading/commit/3832a5354b1a947afe24b0e678bc4cc9d16c064e))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-box:** upgrade from `1.0.0` to `1.1.0`
+
 # 1.0.0 (2024-01-14)
 
 
