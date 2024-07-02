@@ -1,2 +1,7 @@
-export Loading from './Loading';
-export PageLoading from './PageLoading';
+import Loading from './Loading';
+import PageLoading from './PageLoading';
+
+export {
+  Loading,
+  PageLoading,
+};
