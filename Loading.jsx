@@ -1,8 +1,16 @@
 import { LoadingOutlined } from '@ant-design/icons';
-import { Box } from '@mxjs/a-box';
+import clsx from 'clsx';
+import { twMerge } from 'tailwind-merge';
+import PropTypes from 'prop-types';
 
-const Loading = (props) => <Box fontSize="2xl" color="primary" {...props}>
-  <LoadingOutlined spin/>
-</Box>;
+const Loading = ({ className, ...props }) => {
+  return (
+    <LoadingOutlined spin className={twMerge(clsx('text-2xl text-primary', className))} {...props}/>
+  );
+};
+
+Loading.propTypes = {
+  className: PropTypes.string,
+};
 
 export default Loading;
