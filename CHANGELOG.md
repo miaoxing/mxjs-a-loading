@@ -1,3 +1,28 @@
+# [2.0.0](https://github.com/miaoxing/mxjs-a-loading/compare/v1.2.1...v2.0.0) (2024-07-31)
+
+
+### Bug Fixes
+
+* `export default from` 改为标准语法 ([fb1f6f8](https://github.com/miaoxing/mxjs-a-loading/commit/fb1f6f8099604b3809f27f6c0d53a92300005d47))
+
+
+### Features
+
+* **a-loading:** 使用 Tailwind CSS 调整 Loading 组件样式 ([8d3ac15](https://github.com/miaoxing/mxjs-a-loading/commit/8d3ac15b699a40a047fcdcd507313463cc21158b))
+
+
+### BREAKING CHANGES
+
+* **a-loading:** 使用 Tailwind CSS 调整 Loading 组件样式
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/dev:** upgrade from `9.1.1` to `9.1.2`
+
 ## [1.2.1](https://github.com/miaoxing/mxjs-a-loading/compare/v1.2.0...v1.2.1) (2024-03-31)
 
 
