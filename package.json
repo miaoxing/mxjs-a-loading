@@ -11,6 +11,7 @@
     "preset": "jest-preset-miaoxing"
   },
   "dependencies": {
+    "antd": "~5.19",
     "@ant-design/icons": "^5",
     "clsx": "^2.1.1",
     "tailwind-merge": "^2.3.0"

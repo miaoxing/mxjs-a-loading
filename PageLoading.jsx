@@ -1,12 +1,18 @@
-import Loading from './Loading';
+import { Spin } from 'antd';
+import PropTypes from 'prop-types';
 
-const PageLoading = () => {
+const LOADING_DELAY = 300;
+
+const PageLoading = ({ children, ...props }) => {
   return (
-    <div className="text-center my-5">
-      <Loading/>
-      <div className="mt-4">努力加载中...</div>
-    </div>
+    <Spin delay={LOADING_DELAY} {...props}>
+      {children}
+    </Spin>
   );
+};
+
+PageLoading.propTypes = {
+  children: PropTypes.node,
 };
 
 export default PageLoading;
