@@ -4,7 +4,7 @@ exports[`loading Loading 1`] = `
 <div>
   <span
     aria-label="loading"
-    class="anticon anticon-loading anticon-spin text-2xl text-primary"
+    class="anticon anticon-loading anticon-spin text-primary"
     role="img"
   >
     <svg

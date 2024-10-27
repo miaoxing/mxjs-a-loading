@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 const Loading = ({ className, ...props }) => {
   return (
-    <LoadingOutlined spin className={twMerge(clsx('text-2xl text-primary', className))} {...props}/>
+    <LoadingOutlined spin className={twMerge(clsx('text-primary', className))} {...props}/>
   );
 };
 
