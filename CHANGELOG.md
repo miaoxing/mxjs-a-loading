@@ -1,3 +1,11 @@
+# [2.1.0](https://github.com/miaoxing/mxjs-a-loading/compare/v2.0.2...v2.1.0) (2024-11-01)
+
+
+### Features
+
+* **a-loading:** 增加 `LoadingIndicator`，用于替代 `Loading` ([486d04a](https://github.com/miaoxing/mxjs-a-loading/commit/486d04a2d57478aabfa8b15718348027102922cc))
+* **a-loading:** 采用 Spin 组件重构 PageLoading 实现，移除文字，并增加 delay ([8a8f4e7](https://github.com/miaoxing/mxjs-a-loading/commit/8a8f4e74114af987117b6bbc27ef88e20a9eadb3))
+
 ## [2.0.2](https://github.com/miaoxing/mxjs-a-loading/compare/v2.0.1...v2.0.2) (2024-09-01)
 
 
