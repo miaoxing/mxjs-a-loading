@@ -1,3 +1,13 @@
+## [2.1.2](https://github.com/miaoxing/mxjs-a-loading/compare/v2.1.1...v2.1.2) (2024-12-31)
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/dev:** upgrade from `9.3.0` to `9.3.1`
+
 ## [2.1.1](https://github.com/miaoxing/mxjs-a-loading/compare/v2.1.0...v2.1.1) (2024-12-30)
 
 
